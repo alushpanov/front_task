@@ -2,11 +2,6 @@ body {
   max-width: 1600px;
 }
 
-header {
-  margin-top: 95px;
-  margin-left: 215px;
-}
-
 .tryforfreebtn {
   width: 170px;
   height: 57px;
@@ -43,6 +38,8 @@ header {
 }
 
 .flex-header {
+  margin-top: 95px;
+  margin-left: 215px;
   display: flex;
   align-items: baseline;
 }
