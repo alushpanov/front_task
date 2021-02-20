@@ -1,0 +1,48 @@
+body {
+  max-width: 1600px;
+}
+
+header {
+  margin-top: 95px;
+  margin-left: 215px;
+}
+
+.tryforfreebtn {
+  width: 170px;
+  height: 57px;
+  border: none;
+  color: white;
+  font-size: 15px;
+  background-color: #2500f9;
+  cursor: pointer;
+  border-radius: 29px;
+}
+
+.tryforfreetxt {
+  width: 88px;
+  height: 18px;
+  color: #ffffff;
+  font-family: Poppins;
+  font-size: 16px;
+}
+
+.flex-menu {
+  width: 461px;
+  height: 18px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 366px;
+  margin-right: 58px;
+}
+
+.flex-menu a {
+  color: #242f51;
+  text-decoration: none;
+  font-family: Poppins;
+  font-size: 16px;
+}
+
+.flex-header {
+  display: flex;
+  align-items: baseline;
+}
