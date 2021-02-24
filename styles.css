@@ -21,7 +21,7 @@ body {
   font-size: 16px;
 }
 
-.flex-menu {
+.menu {
   width: 461px;
   height: 18px;
   display: flex;
@@ -30,14 +30,14 @@ body {
   margin-right: 58px;
 }
 
-.flex-menu a {
+.menu a {
   color: #242f51;
   text-decoration: none;
   font-family: Poppins;
   font-size: 16px;
 }
 
-.flex-header {
+.top {
   margin-top: 95px;
   margin-left: 215px;
   display: flex;
