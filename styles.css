@@ -43,3 +43,55 @@ body {
   display: flex;
   align-items: baseline;
 }
+
+.main-text {
+  width: 516px;
+  height: 367px;
+  margin-left: 275px;
+  margin-top: 240px;
+}
+
+.main-text img {
+  width: 362px;
+  height: 35px;
+}
+
+.slogan {
+  color: #242f51;
+  font-family: Poppins;
+  font-size: 60px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 75px;
+  text-align: left;
+}
+
+.motiv {
+  color: #616368;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 28px;
+  text-align: left;
+  margin-top: 25px;
+}
+
+.main-text .tryforfreebtn {
+  margin-top: 35px;
+}
+
+.demo-video {
+  color: #2500f9;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 44px;
+  text-align: left;
+  text-decoration: none;
+  margin-left: 25px;
+}
