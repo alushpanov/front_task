@@ -1,7 +1,6 @@
 body {
   max-width: 1600px;
-/*background-color: #f9fbfc;*/
-border: solid red 3px;
+  background-color: #f9fbfc;
 }
 
 .top {
@@ -11,7 +10,6 @@ border: solid red 3px;
   margin-left: 215px;
   display: flex;
   align-items: baseline;
-border: solid green 3px;
 }
 
 .tryforfreebtn {
@@ -52,8 +50,8 @@ border: solid green 3px;
 
 .layers-container {
   position: relative;
+  overflow: hidden;
   height: 865px;
-border: solid black 3px;
 }
 
 .main-text {
@@ -62,7 +60,6 @@ border: solid black 3px;
   position: absolute;
   left: 275px;
   top: 260px;
-border: solid green 3px;
 }
 
 .main-text img {
@@ -140,6 +137,6 @@ border: solid green 3px;
   position: absolute;
   width: 1600px;
   height: 865px;
-  left: -110px;
+  left: -112px;
   z-index: 2;
 }
