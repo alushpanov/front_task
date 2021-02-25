@@ -1,7 +1,10 @@
 body {
-  max-width: 1600px;
-  background-color: #f9fbfc;
+  width: 1600px;
+ 
+  /*background-color: #f9fbfc;
+  opacity: 0.4;*/
 }
+
 
 .top {
   width: 1171px;
@@ -47,7 +50,6 @@ body {
   font-size: 16px;
 }
 
-
 .layers-container {
   position: relative;
   overflow: hidden;
@@ -65,6 +67,10 @@ body {
 .main-text img {
   width: 362px;
   height: 35px;
+}
+
+.main-text .tryforfreebtn {
+  margin-top: 35px;
 }
 
 .slogan {
@@ -88,10 +94,6 @@ body {
   line-height: 28px;
   text-align: left;
   margin-top: 25px;
-}
-
-.main-text .tryforfreebtn {
-  margin-top: 35px;
 }
 
 .demo-video {
@@ -122,7 +124,7 @@ body {
   height: 816px;
   top: 33px;
   right: 245px;
-  z-index: 1;
+  z-index: -4;
 }
 
 .city {
@@ -130,7 +132,7 @@ body {
   width: 1600px;
   height: 245px;
   bottom: 0;
-  z-index: 0;
+  z-index: -5;
 }
 
 .red-signs {
@@ -138,5 +140,5 @@ body {
   width: 1600px;
   height: 865px;
   left: -112px;
-  z-index: 2;
+  z-index: -3;
 }
