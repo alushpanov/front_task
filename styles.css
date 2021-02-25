@@ -1,0 +1,81 @@
+.body {
+  width: 1600px;
+}
+
+.footer {
+  height: 567px;
+  background-color: #09142e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-logo {
+  width: 117px;
+  height: 32px;
+  color: #ffffff;
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 44px;
+  text-align: left;
+  margin-top: 115px;
+}
+
+.app-logo {
+  color: #fcae61;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
+
+.lab-logo {
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
+
+.footer-menu {
+  width: 461px;
+  height: 18px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 44px;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 85px;
+}
+
+.footer-menu a {
+  color: #ffffff;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.footer img {
+  width: 168px;
+  height: 31px;
+  margin-top: 50px;
+}
+
+.copyright {
+  height: 15px;
+  opacity: 0.21;
+  color: #ffffff;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 44px;
+  text-align: left;
+  margin-top: 90px;
+}
