@@ -1,5 +1,17 @@
 body {
   max-width: 1600px;
+/*background-color: #f9fbfc;*/
+border: solid red 3px;
+}
+
+.top {
+  width: 1171px;
+  height: 57px;
+  margin-top: 95px;
+  margin-left: 215px;
+  display: flex;
+  align-items: baseline;
+border: solid green 3px;
 }
 
 .tryforfreebtn {
@@ -37,18 +49,20 @@ body {
   font-size: 16px;
 }
 
-.top {
-  margin-top: 95px;
-  margin-left: 215px;
-  display: flex;
-  align-items: baseline;
+
+.layers-container {
+  position: relative;
+  height: 865px;
+border: solid black 3px;
 }
 
 .main-text {
   width: 516px;
   height: 367px;
-  margin-left: 275px;
-  margin-top: 240px;
+  position: absolute;
+  left: 275px;
+  top: 260px;
+border: solid green 3px;
 }
 
 .main-text img {
@@ -94,4 +108,38 @@ body {
   text-align: left;
   text-decoration: none;
   margin-left: 25px;
+}
+
+.grey-signs {
+  position: absolute;
+  width: 788px;
+  height: 630px;
+  opacity: 0.19;
+  top:70px;
+  left: 10px;
+}
+
+.phone {
+  position: absolute;
+  width: 446px;
+  height: 816px;
+  top: 33px;
+  right: 245px;
+  z-index: 1;
+}
+
+.city {
+  position: absolute;
+  width: 1600px;
+  height: 245px;
+  bottom: 0;
+  z-index: 0;
+}
+
+.red-signs {
+  position: absolute;
+  width: 1600px;
+  height: 865px;
+  left: -110px;
+  z-index: 2;
 }
