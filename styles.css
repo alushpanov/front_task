@@ -1,10 +1,7 @@
 body {
   width: 1600px;
- 
-  /*background-color: #f9fbfc;
-  opacity: 0.4;*/
+  background: rgba(249, 251, 252, .4)
 }
-
 
 .top {
   width: 1171px;
