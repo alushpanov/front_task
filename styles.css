@@ -1,5 +1,143 @@
-.body {
+body {
   width: 1600px;
+  background: rgba(249, 251, 252, .4)
+}
+
+.top {
+  width: 1171px;
+  height: 57px;
+  margin-top: 95px;
+  margin-left: 215px;
+  display: flex;
+  align-items: baseline;
+}
+
+.tryforfreebtn {
+  width: 170px;
+  height: 57px;
+  border: none;
+  color: white;
+  font-size: 15px;
+  background-color: #2500f9;
+  cursor: pointer;
+  border-radius: 29px;
+}
+
+.tryforfreetxt {
+  width: 88px;
+  height: 18px;
+  color: #ffffff;
+  font-family: Poppins;
+  font-size: 16px;
+}
+
+.menu {
+  width: 461px;
+  height: 18px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 366px;
+  margin-right: 58px;
+}
+
+.menu a {
+  color: #242f51;
+  text-decoration: none;
+  font-family: Poppins;
+  font-size: 16px;
+}
+
+.layers-container {
+  position: relative;
+  overflow: hidden;
+  height: 865px;
+}
+
+.main-text {
+  width: 516px;
+  height: 367px;
+  position: absolute;
+  left: 275px;
+  top: 260px;
+}
+
+.main-text img {
+  width: 362px;
+  height: 35px;
+}
+
+.main-text .tryforfreebtn {
+  margin-top: 35px;
+}
+
+.slogan {
+  color: #242f51;
+  font-family: Poppins;
+  font-size: 60px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 75px;
+  text-align: left;
+}
+
+.motiv {
+  color: #616368;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 28px;
+  text-align: left;
+  margin-top: 25px;
+}
+
+.demo-video {
+  color: #2500f9;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 44px;
+  text-align: left;
+  text-decoration: none;
+  margin-left: 25px;
+}
+
+.grey-signs {
+  position: absolute;
+  width: 788px;
+  height: 630px;
+  opacity: 0.19;
+  top:70px;
+  left: 10px;
+}
+
+.phone {
+  position: absolute;
+  width: 446px;
+  height: 816px;
+  top: 33px;
+  right: 245px;
+  z-index: -4;
+}
+
+.city {
+  position: absolute;
+  width: 1600px;
+  height: 245px;
+  bottom: 0;
+  z-index: -5;
+}
+
+.red-signs {
+  position: absolute;
+  width: 1600px;
+  height: 865px;
+  left: -112px;
+  z-index: -3;
 }
 
 .footer {
