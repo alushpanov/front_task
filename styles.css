@@ -217,3 +217,35 @@ body {
   text-align: left;
   margin-top: 90px;
 }
+
+.trsuted-by {
+  width: 934px;
+  height: 140px;
+  position: relative;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+.trsuted-by span {
+  color: #242f51;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 28px;
+  text-align: left;
+  position: absolute;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+.trsuted-by img {
+  width: 934px;
+  height: 90px;
+  display: block;
+  position: absolute;
+  bottom: 0;
+}
